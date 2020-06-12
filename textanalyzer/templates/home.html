@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="/home/harsha/work/home.css">
+    <title>Text Analyzer</title>
+</head>
+<style>
+    textarea{
+        resize: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding: 3%;
+    }
+    div.but_1{
+        text-align: center;
+    }
+    div.jumbotron{
+        text-align: center;
+        background-color: aqua;
+    }
+</style>
+<body>
+<br>
+<div class="jumbotron">
+    <p>Hello Welcome to TEXT ANALYZER</p>
+</div>
+<form action="/analyze" method="GET">
+<textarea name="text" id="" cols="50" rows="15"></textarea>
+<br>
+<div class="but_1">
+<button id="" type="submit" class="btn btn-success">Analyze</button>
+</div>
+</form>
+</body>
+</html>
